@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Kanji - JLPT N5 to N1 | Flashcards & Mnemonics for iOS</title>
+    <meta name="description" content="Learn 2,000+ Japanese kanji from JLPT N5 to N1 using the RTK method. Vivid mnemonics, flashcard quizzes, and progress tracking — free iOS app.">
+    <meta name="keywords" content="learn kanji, kanji flashcards, jlpt n5, jlpt n4, jlpt n3, jlpt kanji, kanji study, kanji quiz, japanese flashcards, remembering the kanji, rtk, kanji mnemonics">
+    <meta name="author" content="HarmonyAstroApps">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://avinashkr29.github.io/LearnKanjiApp/">
+    <link rel="icon" type="image/png" href="public/images/app_icon.png">
+    <link rel="apple-touch-icon" href="public/images/app_icon.png">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Learn Kanji - JLPT N5 to N1">
+    <meta property="og:title" content="Learn Kanji - JLPT N5 to N1 | Free iOS App">
+    <meta property="og:description" content="Master 2,000+ Japanese kanji using vivid mnemonics and flashcards. From N5 beginner to N1 advanced — free on the App Store.">
+    <meta property="og:url" content="https://avinashkr29.github.io/LearnKanjiApp/">
+    <meta property="og:image" content="https://avinashkr29.github.io/LearnKanjiApp/public/images/og_image.jpg">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Learn Kanji - JLPT N5 to N1">
+    <meta name="twitter:description" content="Master Japanese kanji from N5 to N1 with the RTK method. Free iOS app.">
+    <meta name="twitter:image" content="https://avinashkr29.github.io/LearnKanjiApp/public/images/og_image.jpg">
+
+    <meta name="theme-color" content="#C0392B">
+
+    <link rel="stylesheet" href="src/styles/globals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Structured data: MobileApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Learn Kanji - JLPT N5 to N1",
+      "operatingSystem": "iOS",
+      "applicationCategory": "EducationApplication",
+      "description": "Learn 2,000+ Japanese kanji from JLPT N5 to N1 using the Remembering the Kanji (RTK) method. Vivid mnemonics, flashcard quizzes, and full progress tracking.",
+      "url": "https://harmonyastroapps.github.io/LearnKanjiApp/",
+      "featureList": [
+        "2,000+ kanji organized by JLPT level N5 to N1",
+        "RTK-based mnemonics for fast memorization",
+        "Flashcard quiz mode",
+        "Progress tracking per JLPT level",
+        "Offline — no internet required",
+        "Clean minimalist design"
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "HarmonyAstroApps",
+        "url": "https://harmonyastroapps.github.io/",
+        "email": "harmonyastroapp@gmail.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+
+    <!-- Structured data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HarmonyAstroApps",
+      "url": "https://harmonyastroapps.github.io/",
+      "email": "harmonyastroapp@gmail.com",
+      "sameAs": ["https://github.com/HarmonyAstroApps"]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-kanji">漢</span>
+                <span class="logo-text">Learn Kanji</span>
+            </div>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#method">The Method</a>
+                <a href="#jlpt">JLPT Levels</a>
+                <a href="#contact">Contact</a>
+                <a href="#privacy">Privacy</a>
+                <a href="https://apps.apple.com/app/id6744498124" class="nav-cta">Download Free</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg-kanji" aria-hidden="true">
+            <span>字</span><span>語</span><span>本</span><span>日</span><span>漢</span><span>字</span><span>学</span><span>習</span>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content animate-fade-in">
+                <div class="hero-badge">JLPT N5 → N1</div>
+                <h1>Learn Kanji.<br>Remember Everything.</h1>
+                <p class="hero-subtitle">Japanese made memorable</p>
+                <p class="hero-description">
+                    Master 2,000+ kanji using vivid mnemonics from the Remembering the Kanji method.
+                    Each character gets a unique keyword and story — so you actually remember them.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://apps.apple.com/app/id6744498124" class="btn btn-primary">
+                        <i class="fab fa-apple"></i> Download Free
+                    </a>
+                    <a href="#method" class="btn btn-secondary">How It Works</a>
+                </div>
+                <p class="hero-tagline">Free · Offline · No account needed</p>
+            </div>
+            <div class="hero-image animate-slide-in">
+                <div class="phone-mockup">
+                    <img src="public/images/hero_screenshot.jpg" alt="Learn Kanji app showing a kanji flashcard with mnemonic" class="app-screenshot">
+                    <div class="floating-elements">
+                        <div class="floating-card floating-card-1">
+                            <span class="fc-kanji">山</span>
+                            <span class="fc-keyword">mountain</span>
+                        </div>
+                        <div class="floating-card floating-card-2">
+                            <span class="fc-badge">N5</span>
+                        </div>
+                        <div class="floating-card floating-card-3">
+                            <span class="fc-kanji">火</span>
+                            <span class="fc-keyword">fire</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshot Showcase -->
+    <section class="screenshot-showcase">
+        <div class="screenshot-track" id="screenshotTrack">
+            <div class="screenshot-item"><img src="public/images/screenshots/1.jpg" alt="Remember Kanji Without Memorizing — flashcard study"></div>
+            <div class="screenshot-item"><img src="public/images/screenshots/2.jpg" alt="Ace JLPT in 30 Days — learning path"></div>
+            <div class="screenshot-item"><img src="public/images/screenshots/3.jpg" alt="Build A Daily Study Habit Without Burnout — home screen"></div>
+            <!-- Duplicate for seamless loop -->
+            <div class="screenshot-item"><img src="public/images/screenshots/1.jpg" alt="Remember Kanji Without Memorizing — flashcard study"></div>
+            <div class="screenshot-item"><img src="public/images/screenshots/2.jpg" alt="Ace JLPT in 30 Days — learning path"></div>
+            <div class="screenshot-item"><img src="public/images/screenshots/3.jpg" alt="Build A Daily Study Habit Without Burnout — home screen"></div>
+            <!-- Third set for smooth loop -->
+            <div class="screenshot-item"><img src="public/images/screenshots/1.jpg" alt="Remember Kanji Without Memorizing — flashcard study"></div>
+            <div class="screenshot-item"><img src="public/images/screenshots/2.jpg" alt="Ace JLPT in 30 Days — learning path"></div>
+            <div class="screenshot-item"><img src="public/images/screenshots/3.jpg" alt="Build A Daily Study Habit Without Burnout — home screen"></div>
+        </div>
+    </section>
+
+    <!-- Method Section -->
+    <section id="method" class="method">
+        <div class="container">
+            <div class="section-label">The RTK Method</div>
+            <h2>Why Most People Fail at Kanji<br>(And How to Actually Learn Them)</h2>
+            <p class="section-description">Trying to memorize kanji by brute repetition doesn't work. The Remembering the Kanji method assigns each character a memorable English keyword and a vivid story — turning abstract symbols into images your brain holds onto.</p>
+            <div class="method-grid">
+                <div class="method-step">
+                    <div class="method-num">01</div>
+                    <h3>One Keyword Per Kanji</h3>
+                    <p>Every kanji gets a single, precise English keyword. 日 = Sun. 木 = Tree. 火 = Fire. No ambiguity, no confusion.</p>
+                </div>
+                <div class="method-step">
+                    <div class="method-num">02</div>
+                    <h3>Visual Mnemonic Story</h3>
+                    <p>Each character is broken into visual primitives and linked by a short story. Weird and vivid stories stick — that's the point.</p>
+                </div>
+                <div class="method-step">
+                    <div class="method-num">03</div>
+                    <h3>Quiz in Both Directions</h3>
+                    <p>See the kanji → recall the keyword. See the keyword → draw the kanji mentally. Both directions build solid recall.</p>
+                </div>
+                <div class="method-step">
+                    <div class="method-num">04</div>
+                    <h3>Track Your Progress</h3>
+                    <p>See exactly how many kanji you've learned per JLPT level. N5 first, then N4, N3, N2, all the way to N1.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JLPT Levels Section -->
+    <section id="jlpt" class="jlpt-section">
+        <div class="container">
+            <div class="section-label">All JLPT Levels</div>
+            <h2>From First Character to N1 Mastery</h2>
+            <p class="section-description">Start with the 100 most essential kanji in N5 and work your way through all five levels. The app grows with you.</p>
+            <div class="jlpt-grid">
+                <div class="jlpt-card jlpt-n5">
+                    <div class="jlpt-level">N5</div>
+                    <div class="jlpt-count">~100 kanji</div>
+                    <div class="jlpt-desc">Essential everyday characters. The foundation.</div>
+                    <div class="jlpt-examples">日 月 火 水 木 金 土</div>
+                </div>
+                <div class="jlpt-card jlpt-n4">
+                    <div class="jlpt-level">N4</div>
+                    <div class="jlpt-count">~300 kanji</div>
+                    <div class="jlpt-desc">Everyday vocabulary for basic communication.</div>
+                    <div class="jlpt-examples">家 店 駅 道 言 思 知</div>
+                </div>
+                <div class="jlpt-card jlpt-n3">
+                    <div class="jlpt-level">N3</div>
+                    <div class="jlpt-count">~650 kanji</div>
+                    <div class="jlpt-desc">Intermediate — newspapers, novels start here.</div>
+                    <div class="jlpt-examples">様 場 当 意 全 開 化</div>
+                </div>
+                <div class="jlpt-card jlpt-n2">
+                    <div class="jlpt-level">N2</div>
+                    <div class="jlpt-count">~1,000 kanji</div>
+                    <div class="jlpt-desc">Advanced — near-fluent reading ability.</div>
+                    <div class="jlpt-examples">複 雑 処 純 臨 崩 縮</div>
+                </div>
+                <div class="jlpt-card jlpt-n1">
+                    <div class="jlpt-level">N1</div>
+                    <div class="jlpt-count">2,000+ kanji</div>
+                    <div class="jlpt-desc">Mastery — native-level reading comprehension.</div>
+                    <div class="jlpt-examples">憂 鬱 麒 麟 藻 曖 昧</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-label">Features</div>
+            <h2>Everything You Need. Nothing You Don't.</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3>RTK Mnemonics</h3>
+                    <p>Every kanji comes with a keyword and a mnemonic story based on the Remembering the Kanji system used by tens of thousands of learners.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🃏</div>
+                    <h3>Flashcard Quiz</h3>
+                    <p>Flip between keyword → kanji and kanji → keyword modes. Mark cards as known or keep studying — you control the pace.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Progress Tracking</h3>
+                    <p>See your progress clearly broken down by JLPT level. Know exactly where you are and how far you have to go.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✈️</div>
+                    <h3>Fully Offline</h3>
+                    <p>Study on the subway, on a plane, anywhere. No login, no subscription, no internet required.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎌</div>
+                    <h3>All JLPT Levels</h3>
+                    <p>2,000+ kanji covering the full JLPT curriculum from N5 through N1, organized so you build knowledge level by level.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast & Lightweight</h3>
+                    <p>Launches instantly. Clean, distraction-free interface built for daily study sessions — not for killing time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Who Section -->
+    <section class="for-who">
+        <div class="container">
+            <div class="section-label">Who It's For</div>
+            <h2>Built for Every Stage of Your Japanese Journey</h2>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <i class="fas fa-seedling fa-2x"></i>
+                    <h3>Complete Beginners</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Start with N5 — just 100 kanji</li>
+                        <li><i class="fas fa-check"></i> Mnemonics make the first 100 easy</li>
+                        <li><i class="fas fa-check"></i> Build a real foundation fast</li>
+                    </ul>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-graduation-cap fa-2x"></i>
+                    <h3>JLPT Exam Preppers</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Study exactly the kanji you need</li>
+                        <li><i class="fas fa-check"></i> Track progress per level</li>
+                        <li><i class="fas fa-check"></i> Quiz yourself until it sticks</li>
+                    </ul>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-book-open fa-2x"></i>
+                    <h3>Intermediate Learners</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Fill in gaps in N3/N2 knowledge</li>
+                        <li><i class="fas fa-check"></i> Reinforce kanji you half-remember</li>
+                        <li><i class="fas fa-check"></i> Build toward newspaper reading</li>
+                    </ul>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-star fa-2x"></i>
+                    <h3>Advanced Readers</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Push through N1's hardest kanji</li>
+                        <li><i class="fas fa-check"></i> Lock in low-frequency characters</li>
+                        <li><i class="fas fa-check"></i> Reach native reading level</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-label">Get in Touch</div>
+            <h2>Questions or Feedback?</h2>
+            <p class="section-description">We read every message. Whether it's a bug, a suggestion, or just to say you passed the JLPT — we'd love to hear from you.</p>
+            <div class="contact-methods">
+                <a href="mailto:harmonyastroapp@gmail.com" class="contact-method">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <span>Email Us</span>
+                </a>
+                <a href="https://github.com/HarmonyAstroApps" class="contact-method">
+                    <i class="fab fa-github fa-2x"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section id="privacy" class="privacy">
+        <div class="container">
+            <div class="section-label">Privacy</div>
+            <h2>Privacy Policy</h2>
+            <div class="privacy-content">
+                <p>Learn Kanji - JLPT N5 to N1 is designed with your privacy in mind. We collect no personal data.</p>
+                <div class="privacy-details">
+                    <div class="permission-items">
+                        <div class="permission-item">
+                            <i class="fas fa-wifi-slash fa-2x"></i>
+                            <span>No internet connection required</span>
+                        </div>
+                        <div class="permission-item">
+                            <i class="fas fa-user-slash fa-2x"></i>
+                            <span>No account or login needed</span>
+                        </div>
+                        <div class="permission-item">
+                            <i class="fas fa-database fa-2x"></i>
+                            <span>All data stays on your device</span>
+                        </div>
+                    </div>
+                    <div class="privacy-guarantee">
+                        <i class="fas fa-shield-alt fa-2x"></i>
+                        <p>No personal data is collected, stored, or shared with any third party. Ever.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-kanji">漢</span>
+                    <span>Learn Kanji — JLPT N5 to N1</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#method">Method</a>
+                    <a href="#jlpt">JLPT Levels</a>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="footer-copy">&copy; 2025 HarmonyAstroApps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/scripts/screenshot-scroll.js"></script>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+            hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active').toString());
+            document.body.style.overflow = hamburger.classList.contains('active') ? 'hidden' : '';
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            });
+        });
+    </script>
+</body>
+</html>
