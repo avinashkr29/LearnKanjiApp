@@ -1,0 +1,44 @@
+# Learn Kanji – JLPT N5 to N1
+> iOS flashcard app for learning Japanese kanji using the RTK mnemonic method.
+
+## Overview
+Master Japanese kanji from JLPT N5 to N1 using the proven Remembering the Kanji (RTK) method. Study Kanji uses vivid mnemonics and keyword associations to make each character memorable — turning rote memorization into a story-driven learning experience. With 2,000+ kanji organized by JLPT level and a built-in flashcard quiz mode, it suits everyone from absolute beginners working through N5 to advanced learners tackling the full N1 syllabus.
+
+## JLPT Levels Covered
+- N5: ~80 kanji
+- N4: ~166 kanji
+- N3: ~367 kanji
+- N2: ~367 kanji
+- N1: ~1,232 kanji
+- Total: 2,000+ kanji
+
+## The RTK Method
+Remembering the Kanji (RTK), developed by James Heisig, teaches kanji through English keywords and imaginative stories rather than stroke-order drilling alone. Each character is linked to a memorable keyword and a short mnemonic story that ties together the kanji's visual components (radicals and primitives). This method helps learners build durable, long-term recall by encoding each kanji as a vivid mental image rather than an abstract symbol.
+
+## Key Features
+- 2,000+ kanji organized by JLPT level (N5 through N1)
+- RTK-based mnemonics with memorable keyword associations and stories
+- Flashcard quiz mode for active recall practice
+- Progress tracking to monitor which kanji you have mastered
+- Offline study — no internet connection required after download
+- Clean, distraction-free interface optimized for daily review sessions
+
+## Who It's For
+- Students preparing for the JLPT N5, N4, N3, N2, or N1 examinations
+- Japanese language learners at any stage, from complete beginner to advanced
+- Learners who have tried rote memorization and want a more effective, story-based approach
+- Anyone working through the Remembering the Kanji textbook and looking for a digital companion
+- Busy learners who need short, focused study sessions that can be done anywhere
+
+## Platform
+- iOS
+- Price: Free
+- Works offline
+
+## Links
+- App Store: https://apps.apple.com/app/id6747757403
+- Website: https://harmonyastroapps.github.io/LearnKanjiApp/
+
+## Developer
+HarmonyAstroApps — indie iOS developer
+Contact: harmonyastroapp@gmail.com
