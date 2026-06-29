@@ -14,4 +14,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://avinashkr29.github.io/LearnKanjiApp/sitemap.xml
+Sitemap: https://harmonyastroapps.github.io/LearnKanjiApp/sitemap.xml

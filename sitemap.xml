@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://avinashkr29.github.io/LearnKanjiApp/</loc>
+    <loc>https://harmonyastroapps.github.io/LearnKanjiApp/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://avinashkr29.github.io/LearnKanjiApp/public/images/og_image.jpg</image:loc>
+      <image:loc>https://harmonyastroapps.github.io/LearnKanjiApp/public/images/og_image.jpg</image:loc>
       <image:title>Learn Kanji App – JLPT Flashcard App for iOS</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://avinashkr29.github.io/LearnKanjiApp/public/images/hero_screenshot.jpg</image:loc>
+      <image:loc>https://harmonyastroapps.github.io/LearnKanjiApp/public/images/hero_screenshot.jpg</image:loc>
       <image:title>Learn Kanji app showing a kanji flashcard with mnemonic</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://avinashkr29.github.io/LearnKanjiApp/public/images/screenshots/1.jpg</image:loc>
+      <image:loc>https://harmonyastroapps.github.io/LearnKanjiApp/public/images/screenshots/1.jpg</image:loc>
       <image:title>Remember Kanji Without Memorizing — flashcard study</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://avinashkr29.github.io/LearnKanjiApp/public/images/screenshots/2.jpg</image:loc>
+      <image:loc>https://harmonyastroapps.github.io/LearnKanjiApp/public/images/screenshots/2.jpg</image:loc>
       <image:title>Ace JLPT in 30 Days — learning path</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://avinashkr29.github.io/LearnKanjiApp/public/images/screenshots/3.jpg</image:loc>
+      <image:loc>https://harmonyastroapps.github.io/LearnKanjiApp/public/images/screenshots/3.jpg</image:loc>
       <image:title>Build A Daily Study Habit Without Burnout — home screen</image:title>
     </image:image>
   </url>
